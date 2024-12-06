@@ -20,7 +20,7 @@ public abstract class User {
         this.contactInfo = user.contactInfo;
     }
 
-    public String generateUniqueId(){
+    private String generateUniqueId(){
         return "0";
     }
 
@@ -41,6 +41,5 @@ public abstract class User {
     }
 
     public abstract void displayDashboard();
-
     public abstract boolean canBorrowBooks();
 }

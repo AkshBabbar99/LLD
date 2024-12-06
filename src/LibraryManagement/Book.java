@@ -52,7 +52,7 @@ public abstract class Book implements Lendable {
 
     @Override
     public boolean lend(User user) {
-        if(isAvailable){
+        if(isAvailable && user.canBorrowBooks()){
             isAvailable = false;
             return true;
         }

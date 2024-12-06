@@ -8,8 +8,6 @@ public abstract class User {
 
     public User(){
         this.userId = generateUniqueId();
-        this.name = "";
-        this.contactInfo = "";
     }
 
     public User(String name, String contactInfo){
@@ -25,7 +23,8 @@ public abstract class User {
     }
 
     private final String generateUniqueId(){
-        return ++totalUsers + "";
+        totalUsers++;
+        return "User-" + totalUsers;
     }
 
     private int getTotalUsers(){

@@ -24,6 +24,8 @@ public abstract class Book implements Lendable {
         this.isAvailable = true;
     }
 
+    public abstract void displayBookDetails();
+
     public String getIsbn() {
         return isbn;
     }
@@ -47,8 +49,6 @@ public abstract class Book implements Lendable {
     public void setAuthor(String author) {
         this.author = author;
     }
-
-    public abstract void displayBookDetails();
 
     @Override
     public boolean lend(User user) {

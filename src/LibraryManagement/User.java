@@ -8,6 +8,8 @@ public abstract class User {
 
     public User(){
         this.userId = generateUniqueId();
+        this.name = "";
+        this.contactInfo = "";
     }
 
     public User(String name, String contactInfo){

@@ -9,6 +9,11 @@ public class Member extends User {
         this.borrowedBooksCount = 0;
     }
 
+    public Member(String name, String contactInfo){
+        super(name, contactInfo);
+        this.borrowedBooksCount = 0;
+    }
+
     @Override
     public void displayDashboard() {
         System.out.println("Member Dashboard" + "\n. Books Borrowed: " + borrowedBooksCount);

@@ -3,6 +3,14 @@ package LibraryManagement;
 public class Librarian extends User {
     private String employeeNumber;
 
+    public Librarian(){
+        super();
+    }
+
+    public Librarian(String name, String contactInfo){
+        super(name, contactInfo);
+    }
+
     public void addBook(){
         //add books
     }

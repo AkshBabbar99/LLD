@@ -7,8 +7,9 @@ public class Librarian extends User {
         super();
     }
 
-    public Librarian(String name, String contactInfo){
+    public Librarian(String name, String contactInfo, String employeeNumber){
         super(name, contactInfo);
+        this.employeeNumber = employeeNumber;
     }
 
     public void addBook(){

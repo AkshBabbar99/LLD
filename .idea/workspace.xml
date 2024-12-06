@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fc40a2a7-b271-4124-bc91-5b6a7f199ff7" name="Changes" comment="">
+    <list default="true" id="fc40a2a7-b271-4124-bc91-5b6a7f199ff7" name="Changes" comment="fix">
+      <change afterPath="$PROJECT_DIR$/src/LibraryManagement/Librarian.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LibraryManagement/Member.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LibraryManagement/User.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/IntroToOOP/BankAccount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/IntroToOOP/BankAccount.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,6 +41,9 @@
   &quot;associatedIndex&quot;: 7
 }</component>
   <component name="ProjectId" id="2pdrw4ABd9gWKFE3rwjuF7t3sdA" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -98,8 +103,17 @@
       <updated>1732647718677</updated>
       <workItem from="1732647720625" duration="597000" />
       <workItem from="1733107031115" duration="178000" />
-      <workItem from="1733423096327" duration="939000" />
+      <workItem from="1733423096327" duration="2392000" />
     </task>
+    <task id="LOCAL-00001" summary="fix">
+      <option name="closed" value="true" />
+      <created>1733449300809</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1733449300809</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -115,5 +129,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="fix" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix" />
   </component>
 </project>

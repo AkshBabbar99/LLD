@@ -22,6 +22,7 @@ public class NovelBook extends Book {
         System.out.println("NovelBook Details:");
         System.out.println("ISBN: " + getIsbn());
         System.out.println("Title: " + getTitle());
+        System.out.println("Genre: " + this.genre);
         System.out.println("Author: " + getAuthor());
     }
 }

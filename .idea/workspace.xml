@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fc40a2a7-b271-4124-bc91-5b6a7f199ff7" name="Changes" comment="added book, novelbook and textbook">
+    <list default="true" id="fc40a2a7-b271-4124-bc91-5b6a7f199ff7" name="Changes" comment="fix isAvailable">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LibraryManagement/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LibraryManagement/Book.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LibraryManagement/NovelBook.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LibraryManagement/NovelBook.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LibraryManagement/TextBook.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LibraryManagement/TextBook.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -105,7 +106,7 @@
       <updated>1732647718677</updated>
       <workItem from="1732647720625" duration="597000" />
       <workItem from="1733107031115" duration="178000" />
-      <workItem from="1733423096327" duration="8207000" />
+      <workItem from="1733423096327" duration="8945000" />
     </task>
     <task id="LOCAL-00001" summary="fix">
       <option name="closed" value="true" />
@@ -179,7 +180,15 @@
       <option name="project" value="LOCAL" />
       <updated>1733456466664</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="fix isAvailable">
+      <option name="closed" value="true" />
+      <created>1733456622113</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1733456622113</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -202,6 +211,7 @@
     <MESSAGE value="added librarian and member" />
     <MESSAGE value="added librarian and member and book" />
     <MESSAGE value="added book, novelbook and textbook" />
-    <option name="LAST_COMMIT_MESSAGE" value="added book, novelbook and textbook" />
+    <MESSAGE value="fix isAvailable" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix isAvailable" />
   </component>
 </project>

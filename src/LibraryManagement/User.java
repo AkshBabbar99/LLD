@@ -1,15 +1,17 @@
 package LibraryManagement;
 
 public abstract class User {
-    private String userId;
+    private final String userId;
     private String name;
     private String contactInfo;
+    private static int totalUsers = 0;
 
     public User(){
         this.userId = generateUniqueId();
     }
 
     public User(String name, String contactInfo){
+        this.userId = generateUniqueId();
         this.name = name;
         this.contactInfo = contactInfo;
     }
@@ -20,8 +22,12 @@ public abstract class User {
         this.contactInfo = user.contactInfo;
     }
 
-    private String generateUniqueId(){
-        return "0";
+    private final String generateUniqueId(){
+        return ++totalUsers + "";
+    }
+
+    private int getTotalUsers(){
+        return totalUsers;
     }
 
     public String getName() {
@@ -41,5 +47,6 @@ public abstract class User {
     }
 
     public abstract void displayDashboard();
+
     public abstract boolean canBorrowBooks();
 }

@@ -4,8 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fc40a2a7-b271-4124-bc91-5b6a7f199ff7" name="Changes" comment="fix">
+    <list default="true" id="fc40a2a7-b271-4124-bc91-5b6a7f199ff7" name="Changes" comment="fixes for user">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LLD.iml" beforeDir="false" afterPath="$PROJECT_DIR$/LLD.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LibraryManagement/Librarian.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LibraryManagement/Librarian.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LibraryManagement/Member.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LibraryManagement/Member.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/LibraryManagement/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LibraryManagement/User.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -49,6 +52,10 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.BankAccount.executor": "Run",
+    "Downloaded.Files.Path.Enabled": "false",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "main",
@@ -101,7 +108,7 @@
       <updated>1732647718677</updated>
       <workItem from="1732647720625" duration="597000" />
       <workItem from="1733107031115" duration="178000" />
-      <workItem from="1733423096327" duration="2753000" />
+      <workItem from="1733423096327" duration="4236000" />
     </task>
     <task id="LOCAL-00001" summary="fix">
       <option name="closed" value="true" />
@@ -119,7 +126,15 @@
       <option name="project" value="LOCAL" />
       <updated>1733450926810</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="fixes for user">
+      <option name="closed" value="true" />
+      <created>1733451110816</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1733451110816</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -138,6 +153,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="fix" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix" />
+    <MESSAGE value="fixes for user" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixes for user" />
   </component>
 </project>

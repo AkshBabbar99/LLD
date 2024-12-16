@@ -1,34 +1,27 @@
 package LibraryManagement;
 
+import java.util.ArrayList;
+
 public abstract class User {
     private final String userId;
     private String name;
     private String contactInfo;
+    private final ArrayList<Book> borrowedBooks = new ArrayList<>();
     private static int totalUsers = 0;
 
-    public User(){
+    public User() {
         this.userId = generateUniqueId();
     }
 
-    public User(String name, String contactInfo){
+    public User(String name, String contactInfo) {
         this.userId = generateUniqueId();
         this.name = name;
         this.contactInfo = contactInfo;
     }
 
-    public User(User user){
-        this.userId = generateUniqueId();
-        this.name = user.name;
-        this.contactInfo = user.contactInfo;
-    }
-
-    private final String generateUniqueId(){
+    private String generateUniqueId() {
         totalUsers++;
         return "User-" + totalUsers;
-    }
-
-    private int getTotalUsers(){
-        return totalUsers;
     }
 
     public String getName() {
@@ -45,6 +38,29 @@ public abstract class User {
 
     public void setContactInfo(String contactInfo) {
         this.contactInfo = contactInfo;
+    }
+
+    public ArrayList<Book> getBorrowedBooks() {
+        return borrowedBooks;
+    }
+
+    public void borrowBook(Book book) {
+        if (canBorrowBooks() && book.isAvailable()) {
+            borrowedBooks.add(book);
+            System.out.println(name + " successfully borrowed " + book.getTitle());
+        } else {
+            System.out.println(name + " failed to borrow " + book.getTitle());
+        }
+    }
+
+    public boolean returnBook(Book book) {
+        if (borrowedBooks.contains(book)) {
+            borrowedBooks.remove(book);
+            System.out.println(name + " returned " + book.getTitle());
+            return true;
+        }
+        System.out.println(name + " does not have " + book.getTitle() + " to return.");
+        return false;
     }
 
     public abstract void displayDashboard();

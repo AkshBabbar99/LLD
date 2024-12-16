@@ -1,11 +1,10 @@
 package LibraryManagement;
 
 public class NovelBook extends Book {
-
     private String genre;
 
-    public NovelBook(String isbn, String title, String author, String genre){
-        super(isbn, title, author);
+    public NovelBook(String isbn, String title, String author, String genre) {
+        super(isbn, title, author, BookType.NOVELBOOK);
         this.genre = genre;
     }
 
@@ -22,7 +21,7 @@ public class NovelBook extends Book {
         System.out.println("NovelBook Details:");
         System.out.println("ISBN: " + getIsbn());
         System.out.println("Title: " + getTitle());
-        System.out.println("Genre: " + this.genre);
         System.out.println("Author: " + getAuthor());
+        System.out.println("Genre: " + genre);
     }
 }

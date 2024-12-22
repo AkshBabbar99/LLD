@@ -4,15 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fc40a2a7-b271-4124-bc91-5b6a7f199ff7" name="Changes" comment="added book details">
-      <change afterPath="$PROJECT_DIR$/src/Misc/Generics/Animal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Misc/Generics/AnimalUtility.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Misc/Generics/Cat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Misc/Generics/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Misc/Generics/Dog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Misc/Generics/GenericPair.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Misc/Generics/Mammal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Misc/Generics/Pair.java" afterDir="false" />
+    <list default="true" id="fc40a2a7-b271-4124-bc91-5b6a7f199ff7" name="Changes" comment="added generics">
+      <change afterPath="$PROJECT_DIR$/src/GenericsLab/Book.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/GenericsLab/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/GenericsLab/Clothing.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/GenericsLab/Electronics.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/GenericsLab/Inventory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/GenericsLab/Item.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/GenericsLab/ItemNameComparator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/GenericsLab/ItemQuantityComparator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/GenericsLab/Order.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/GenericsLab/OrderProcessing.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/GenericsLab/RecentlyViewedItems.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -54,43 +57,44 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.BankAccount.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Client.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Misc.AdderSubtractor.Client.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Misc.Locks.Client.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Misc.Semaphores.Client.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Misc.Synchronized.Client.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Misc.SynchronizedMethods.Client.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Sorter.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Test.executor&quot;: &quot;Run&quot;,
-    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/akshbabbar/Desktop/Labs/LLD/src/Misc/SynchronizedMethods&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;onboarding.tips.debug.path&quot;: &quot;/Users/akshbabbar/Desktop/Labs/LLD/src/Main.java&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;vcs.Git&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.BankAccount.executor": "Run",
+    "Application.Client.executor": "Run",
+    "Application.GenericsLab.Client.executor": "Run",
+    "Application.Misc.AdderSubtractor.Client.executor": "Run",
+    "Application.Misc.Locks.Client.executor": "Run",
+    "Application.Misc.Semaphores.Client.executor": "Run",
+    "Application.Misc.Synchronized.Client.executor": "Run",
+    "Application.Misc.SynchronizedMethods.Client.executor": "Run",
+    "Application.Sorter.executor": "Run",
+    "Application.Test.executor": "Run",
+    "Downloaded.Files.Path.Enabled": "false",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/Users/akshbabbar/Desktop/Labs/LLD/src/Misc/SynchronizedMethods",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "onboarding.tips.debug.path": "/Users/akshbabbar/Desktop/Labs/LLD/src/Main.java",
+    "settings.editor.selected.configurable": "vcs.Git",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/Misc/SynchronizedMethods" />
       <recent name="$PROJECT_DIR$/src/Misc" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Client">
+  <component name="RunManager" selected="Application.GenericsLab.Client">
     <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Misc.Generics.Client" />
       <module name="LLD" />
@@ -104,12 +108,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Misc.Locks.Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Misc.Locks.Client" />
+    <configuration name="GenericsLab.Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="GenericsLab.Client" />
       <module name="LLD" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Misc.Locks.*" />
+          <option name="PATTERN" value="GenericsLab.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -158,11 +162,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.GenericsLab.Client" />
         <item itemvalue="Application.Client" />
         <item itemvalue="Application.Misc.Semaphores.Client" />
         <item itemvalue="Application.Misc.SynchronizedMethods.Client" />
         <item itemvalue="Application.Misc.SynchronizedBlocks.Client" />
-        <item itemvalue="Application.Misc.Locks.Client" />
       </list>
     </recent_temporary>
   </component>
@@ -192,6 +196,7 @@
       <workItem from="1734313300119" duration="4297000" />
       <workItem from="1734487394206" duration="3454000" />
       <workItem from="1734864135363" duration="1309000" />
+      <workItem from="1734869705975" duration="6207000" />
     </task>
     <task id="LOCAL-00001" summary="fix">
       <option name="closed" value="true" />
@@ -289,7 +294,15 @@
       <option name="project" value="LOCAL" />
       <updated>1734320082528</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="added generics">
+      <option name="closed" value="true" />
+      <created>1734869724772</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1734869724772</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -314,6 +327,7 @@
     <MESSAGE value="added book, novelbook and textbook" />
     <MESSAGE value="fix isAvailable" />
     <MESSAGE value="added book details" />
-    <option name="LAST_COMMIT_MESSAGE" value="added book details" />
+    <MESSAGE value="added generics" />
+    <option name="LAST_COMMIT_MESSAGE" value="added generics" />
   </component>
 </project>

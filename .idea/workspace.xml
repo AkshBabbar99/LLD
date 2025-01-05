@@ -4,19 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fc40a2a7-b271-4124-bc91-5b6a7f199ff7" name="Changes" comment="added generics">
-      <change afterPath="$PROJECT_DIR$/src/GenericsLab/Book.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/GenericsLab/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/GenericsLab/Clothing.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/GenericsLab/Electronics.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/GenericsLab/Inventory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/GenericsLab/Item.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/GenericsLab/ItemNameComparator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/GenericsLab/ItemQuantityComparator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/GenericsLab/Order.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/GenericsLab/OrderProcessing.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/GenericsLab/RecentlyViewedItems.java" afterDir="false" />
+    <list default="true" id="fc40a2a7-b271-4124-bc91-5b6a7f199ff7" name="Changes" comment="generics Inventory Management System">
+      <change afterPath="$PROJECT_DIR$/src/Misc/Streams_Lambdas/LambdaClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Misc/Streams_Lambdas/StreamClient.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GenericsLab/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GenericsLab/Client.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,12 +54,14 @@
     "Application.BankAccount.executor": "Run",
     "Application.Client.executor": "Run",
     "Application.GenericsLab.Client.executor": "Run",
+    "Application.LambdaClient.executor": "Run",
     "Application.Misc.AdderSubtractor.Client.executor": "Run",
     "Application.Misc.Locks.Client.executor": "Run",
     "Application.Misc.Semaphores.Client.executor": "Run",
     "Application.Misc.Synchronized.Client.executor": "Run",
     "Application.Misc.SynchronizedMethods.Client.executor": "Run",
     "Application.Sorter.executor": "Run",
+    "Application.StreamClient.executor": "Run",
     "Application.Test.executor": "Run",
     "Downloaded.Files.Path.Enabled": "false",
     "Repository.Attach.Annotations": "false",
@@ -94,7 +88,7 @@
       <recent name="$PROJECT_DIR$/src/Misc" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.GenericsLab.Client">
+  <component name="RunManager" selected="Application.StreamClient">
     <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Misc.Generics.Client" />
       <module name="LLD" />
@@ -121,6 +115,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="LambdaClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Misc.Streams_Lambdas.LambdaClient" />
+      <module name="LLD" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Misc.Streams_Lambdas.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Misc.Semaphores.Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Misc.Semaphores.Client" />
       <module name="LLD" />
@@ -134,25 +141,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Misc.SynchronizedBlocks.Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Misc.SynchronizedBlocks.Client" />
+    <configuration name="StreamClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Misc.Streams_Lambdas.StreamClient" />
       <module name="LLD" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Misc.SynchronizedBlocks.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Misc.SynchronizedMethods.Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Misc.SynchronizedMethods.Client" />
-      <module name="LLD" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Misc.SynchronizedMethods.*" />
+          <option name="PATTERN" value="Misc.Streams_Lambdas.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -162,11 +156,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.StreamClient" />
+        <item itemvalue="Application.LambdaClient" />
         <item itemvalue="Application.GenericsLab.Client" />
         <item itemvalue="Application.Client" />
         <item itemvalue="Application.Misc.Semaphores.Client" />
-        <item itemvalue="Application.Misc.SynchronizedMethods.Client" />
-        <item itemvalue="Application.Misc.SynchronizedBlocks.Client" />
       </list>
     </recent_temporary>
   </component>
@@ -196,7 +190,8 @@
       <workItem from="1734313300119" duration="4297000" />
       <workItem from="1734487394206" duration="3454000" />
       <workItem from="1734864135363" duration="1309000" />
-      <workItem from="1734869705975" duration="6207000" />
+      <workItem from="1734869705975" duration="8362000" />
+      <workItem from="1736075150245" duration="6613000" />
     </task>
     <task id="LOCAL-00001" summary="fix">
       <option name="closed" value="true" />
@@ -302,7 +297,15 @@
       <option name="project" value="LOCAL" />
       <updated>1734869724772</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="generics Inventory Management System">
+      <option name="closed" value="true" />
+      <created>1734877720930</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1734877720930</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -328,6 +331,7 @@
     <MESSAGE value="fix isAvailable" />
     <MESSAGE value="added book details" />
     <MESSAGE value="added generics" />
-    <option name="LAST_COMMIT_MESSAGE" value="added generics" />
+    <MESSAGE value="generics Inventory Management System" />
+    <option name="LAST_COMMIT_MESSAGE" value="generics Inventory Management System" />
   </component>
 </project>

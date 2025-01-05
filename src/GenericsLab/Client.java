@@ -21,5 +21,7 @@ class Client {
         inventory.addItem(laptop);
         inventory.addItem(smartphone);
         inventory.addItem(tablet);
+
+
     }
 }
